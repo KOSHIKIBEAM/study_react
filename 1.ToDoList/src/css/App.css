@@ -10,7 +10,7 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  padding: 20% 8px;
+  padding: 20px 8px;
 }
 
 .task_column {
