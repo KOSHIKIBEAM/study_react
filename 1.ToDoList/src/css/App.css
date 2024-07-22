@@ -1,0 +1,20 @@
+.app {
+  display: grid;
+  grid-template-rows: 150px auto;
+}
+
+.app_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 20% 8px;
+}
+
+.task_column {
+  width: 33.33%;
+  background: tomato;
+  margin: 20px;
+}
