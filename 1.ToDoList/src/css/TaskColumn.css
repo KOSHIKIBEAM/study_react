@@ -1,0 +1,13 @@
+.task_column_heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.task_column_icon {
+  width: 30px;
+  margin-right: 5px;
+}
