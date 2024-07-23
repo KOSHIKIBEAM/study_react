@@ -7,6 +7,9 @@ import TodoIcon from "./assets/target.png";
 import DoingIcon from "./assets/star.png";
 import DoneIcon from "./assets/check.png";
 
+const oldTasks = localStorage.getItem("tasks");
+console.log(oldTasks);
+
 const App = () => {
   const [tasks, setTasks] = useState([]);
 
