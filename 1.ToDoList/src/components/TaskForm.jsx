@@ -41,6 +41,11 @@ const TaskForm = ({ setTasks }) => {
     setTasks((prev) => {
       return [...prev, taskData];
     });
+    setTaskData({
+      task: "",
+      status: "todo",
+      tags: [],
+    });
   };
 
   return (
@@ -50,7 +55,7 @@ const TaskForm = ({ setTasks }) => {
           className="task_input"
           type="text"
           name="task"
-          id=""
+          value={taskData.task}
           placeholder="Enter your task"
           onChange={handleChange}
         />
@@ -81,7 +86,7 @@ const TaskForm = ({ setTasks }) => {
           <div>
             <select
               name="status"
-              id=""
+              value={taskData.task}
               className="task_status"
               onChange={handleChange}
             >
